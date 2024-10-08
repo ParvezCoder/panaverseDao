@@ -1,10 +1,11 @@
-import React, { FC } from 'react'
+import React from 'react'
 
-const Quarter: FC<{ heading: string, paragraph: string, number: number, id?: number }> = ({ heading, paragraph, number, id }) => {
+const Quarter=() => {
     return (
 
 
         <section>
+            <h1>ok</h1>
         </section>
 
     )

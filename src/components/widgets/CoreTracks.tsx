@@ -22,7 +22,6 @@ const coreTrackData = [
 ]
 
 const CoreTracks = () => {
-    const data = coreTrackData;
 
     const header = "Core Courses\n(Common in All Specialization)"
     return (
@@ -39,12 +38,12 @@ const CoreTracks = () => {
             <div className='flex gap-x-8 gap-y-4 my-20 flex-col items-stretch md:flex-row'>
                 {
                     coreTrackData.map((ok, i) => (
-                        <div>
+                        <div key={i}>
 
                             <QuarterBox 
                             description={ok.description} 
                             header={ok.header} 
-                            nimi={ok.num}
+                            nimi={i+1}
                              />
                         </div>
                     ))
