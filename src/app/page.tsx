@@ -6,6 +6,7 @@ function page() {
     <>
       <main className='max-w-screen-xl mx-auto  px-3'>
         <Hero />
+        {/* no */}
         <CoreTracks/>
       </main>
     </>
