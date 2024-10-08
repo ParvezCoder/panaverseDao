@@ -4,7 +4,7 @@ function Header() {
   return (
 
 
-      <header className="flex  justify-between max-w-screen-xl mx-auto bg-white sticky top-0 py-5 px-2 items-center ">
+      <header className="flex  justify-between max-w-screen-xl mx-auto bg-red-100  sticky top-0  px-2 items-center ">
         {/* logo */}
         <div>
 
