@@ -191,8 +191,7 @@ export const programData = [
 const SpecialTracks = () => {
 
     const [selectedItem, setSelectedItem] = useState("wmd")
-    const selectedItemData = programData.find((items, i) => items.slug === selectedItem)
-    console.log(selectedItemData)
+    const selectedItemData = programData.find((items) => items.slug === selectedItem)
 
     return (
 
