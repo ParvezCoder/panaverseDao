@@ -10,7 +10,7 @@ const coreTrackData = [
     },
     {
         header: "Quarter II",
-        description: "W2-201: Developing Planet-Scale Web 2.0 Serverless Cloud Cloud Apps ",
+        description: "W2-201: Developing Planet-Scale Web 2.0 Serverless Cloud Cloud Apps and APIs using Next.js 13 and Cloud Development Kit (CDK) for Terraform  ",
         // and APIs using Next.js 13 and Cloud Development Kit (CDK) for Terraform
         num: 2
     },
@@ -38,18 +38,13 @@ const CoreTracks = () => {
             <div className='flex gap-x-8 gap-y-4 my-20 flex-col items-stretch md:flex-row'>
                 {
                     coreTrackData.map((ok, i) => (
-                        <div key={i}>
-
-                            <QuarterBox 
-                            description={ok.description} 
-                            header={ok.header} 
-                            nimi={i+1}
-                             />
-                        </div>
+                        < QuarterBox key = { i } header = { ok.header } nimi = { ok.num } description = { ok.description } />
                     ))
-                }
-            </div>
 
+                   
+                }
+
+            </div>
 
 
         </section>

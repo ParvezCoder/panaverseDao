@@ -1,5 +1,6 @@
 import CoreTracks from '@/components/widgets/CoreTracks'
 import Hero from '@/components/widgets/Hero'
+import ProgramOutcome from '@/components/widgets/ProgramOutcome'
 import SpecialTracks from '@/components/widgets/SpecialTracks'
 import React from 'react'
 function page() {
@@ -9,6 +10,7 @@ function page() {
         <Hero />
         <CoreTracks />
         <SpecialTracks />
+        <ProgramOutcome />
       </main>
     </>
   )

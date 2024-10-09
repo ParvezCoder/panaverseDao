@@ -2,9 +2,10 @@ import Image from "next/image"
 import logo from "/public/logo.png"
 function Header() {
   return (
+    <header className="   bg-white z-10 sticky top-0   ">
 
 
-      <header className="flex  justify-between max-w-screen-xl mx-auto bg-red-100  sticky top-0  px-2 items-center ">
+      <div className="flex  justify-between max-w-screen-xl mx-auto  px-2 items-center ">
         {/* logo */}
         <div>
 
@@ -15,7 +16,9 @@ function Header() {
           <li>Home</li>
           <li>Courses</li>
         </ul>
-      </header >
+      </div >
+    </header>
+
 
 
   )
